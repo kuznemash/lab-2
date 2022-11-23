@@ -1,0 +1,429 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+}
+.container {
+    margin: 0%;
+}
+
+/* TEXT */
+h1 {
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 83px;
+    color: #156963;
+}
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #156963;
+}
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #2C1500; 
+}
+.header-text-1 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #2C1500; 
+    opacity: 0.8;
+}
+.main-text-1 {
+    margin-left: 16px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #2C1500; 
+}
+.main-text-2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #2C1500; 
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-menu {
+    margin-top: 45px;
+    margin-right: 15%;
+    display: flex;
+    align-content: space-between;
+    justify-content: flex-end;
+    align-items: center; 
+}
+.menu-buttom {
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color:#156963;
+    text-decoration: none;
+}
+.menu-buttom:hover {
+    padding: 8px 20px;
+    background-color: #156963;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+a > img {
+    padding: 11px;
+} 
+.header-text {
+    margin: 186px 76px 110px 77px;
+}
+
+/* MAIN */
+.main-profits {
+    display: flex;
+    margin: 142px 56px 80px 56px;
+    justify-content: space-between;
+}
+.main-profits-block {
+    width: 268px;
+    height: 155px;
+    padding: 22px 16px;
+    border: 1px solid #E0E0E0;
+}
+.main-profits-block-1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.main-profits-img {
+    margin: 16px;
+}
+.devider {
+    text-align: center;
+    padding: 0px 56px 16px 56px;
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #2C1500; 
+}
+
+.main-products {
+    display: flex;
+    margin: 31px 56px 80px 56px;
+    justify-content: space-between;
+}
+.main-products-block {
+    width: 217px;
+    height: 281px;
+} 
+.name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #2C1500; 
+}
+.price {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2C1500; 
+}
+.main-abstract {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 56px 80px 56px;
+}
+.main-abstract-text {
+    margin: 0px 109px 45px 58px;
+}
+.main-abstract-img {
+    margin-left: 58px;
+}
+.main-info {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 56px 0px 56px;
+    background-color: #F3F4F6;
+}
+.main-info-item-1 {
+    padding: 88px 0px 88px 97px;
+}
+.big-buttom {
+    width: 152px;
+    height: 40px;
+    padding: 10px 42px;
+    background-color: #156963;
+    color: white;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.big-buttom:hover {
+    color:#156963;
+    background-color: #F3F4F6;
+    text-decoration: none;
+    border: 1px solid #156963;
+} 
+.devider-2 {
+    padding-bottom: 80px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+/* FOOTER */
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #156963;
+    opacity: 0.2;
+    padding-bottom: 24px;
+}
+.footer-heading {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    color: #333333;
+}
+.footer-text {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px 167px 75px 167px;
+}
+.footer-item-1 {
+    width: 282px;
+    height: 137px;
+    
+}
+.footer-item-2 {
+    width: 95px;
+    height: 82px;
+}
+.footer-item-3 {
+    width: 95px;
+    height: 82px;
+}
+.footer-item-4 {
+    width: 234px;
+    height: 98px;
+}
+.email-field {
+    padding: 8px 87px 8px 13px;
+    font-size: 12px;
+    opacity: 0.5;
+    width: 234px;
+    border: 1px solid #E0E0E0;
+}
+.small-buttom {
+    width: 51px;
+    height: 15px;
+    padding: 4px 12px;
+    background-color: #156963;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+}
+.small-buttom:hover {
+    color:#156963;
+    background-color: #F3F4F6;
+    text-decoration: none;
+    border: 1px solid #156963;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 744px) {
+    .header-text {
+        margin: 0px 83px 0px 83px;
+    }
+    .header-img {
+        display: none;
+    }
+    h1 {
+        font-size: 75px;
+    }
+    .header-text-1 {
+        font-size: 20px;
+    }
+    .main-profits-block {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+    .main-profits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+    }
+    .main-products-block:last-of-type {
+        display: none;
+    }
+    .main-products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main-products-block {
+        margin-top: 10px;
+        margin-bottom: 12px;
+    }
+    .main-abstract-img-2 {
+        display: none;
+    }
+    .main-abstract {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0px;
+        justify-content: center;
+    }
+    .main-abstract-text {
+        margin: 0px 60px 58px 60px;
+    }
+    .main-abstract-img {
+        margin: 0px 60px 80px 60px;
+    }
+    .main-abstract-img-2 {
+        display: none;
+    }
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 65px;
+        justify-content: center;
+    }
+    .main-info-item-1 {
+        padding: 39px 42px;
+        font-size: 18px;
+
+    }
+    .big-buttom {
+        margin-right: auto;
+        margin-left: auto;
+        padding: 9px 160px 9px 160px;
+        text-align: center;
+    
+    }
+    .main-info-img {
+        width: 442px;
+        height: 343px;
+        margin: 0px 65px;
+    }
+    .footer-item-2 {
+        display: none;
+    }
+    .footer-item-3 {
+        display: none;
+    }
+    .footer {
+        margin: 35px 65px 100px 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .email-field {
+        height: 29px;
+        width: 258px;
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+@media only screen and (max-width: 390px) {
+    .header-menu {
+        justify-content: center;
+        margin-right: 0px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 1.25;
+    }
+    .header-text {
+        margin: 0px 25px;
+    }
+    .header-text-1 {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    .main-abstract {
+        margin: 0px 25px;
+    }
+    .main-products {
+        margin-bottom: 30px;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 1.25;
+    }
+    .main-abstract-text {
+        margin: 0px 25px 38px 25px;
+    }
+    .main-text-2 {
+        font-size: 12px;
+    }
+    .main-abstract-img {
+        display: none;
+    }
+    .main-info {
+        margin: 0px 40px;
+    }
+    .main-info-item-1 {
+        padding: 19px 21px 0px 21px;
+    }
+    .big-buttom {
+        height: 19px;
+        width: 240px;
+        padding: 5px 104px;
+        font-size: 7px;
+    }
+    .main-info-img {
+        width: 217px;
+        height: 168px;
+    }
+    .footer {
+        margin: 0px 25px 25px 25px;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 53px;
+        height: 11px;
+        padding: 0;
+        margin: 10px 0px 20px 0px;
+    }
+    .footer-heading {
+        font-size: 10px;
+    }
+    .footer-text {
+        font-size: 7px;
+        line-height: 1.5;
+    }
+    .email-field {
+        width: 139px;
+        height: 19px;
+        font-size: 8px;
+        padding: 4.3px 51px 4.3px 7.7px;
+    }
+    .small-buttom {
+        position: absolute;
+        right: 25px;
+        font-size: 7px;
+        text-align: center;
+    }
+
+}
